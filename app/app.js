@@ -77,7 +77,7 @@ function App() {
               ref={answerField}
               value={userAnswer}
               onChange={(e) => setUserAnswer(e.target.value)}
-              type="text"
+              type="numeric"
               className="our-field"
               autoComplete="off"
             />
